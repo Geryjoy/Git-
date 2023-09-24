@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Dowhile2 {
+	public static void main(String[] args) {
+		Scanner myScanner = new Scanner(System.in);
+		char anwser = ' ';
+		do {
+			System.out.println("中共铁拳砸下来");
+			System.out.println("润不润");
+			anwser = myScanner.next().charAt(0);
+		} while(anwser != 'y'); 
+			
+		System.out.println("成功逃离地狱");
+}
+}
