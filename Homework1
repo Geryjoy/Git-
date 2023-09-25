@@ -1,0 +1,9 @@
+public class Homework01 {
+	public static void main(String[] args) {
+	String a1 = "22.2";
+	Double b1 = Double.parseDouble(a1);
+	char c1 = 'һ';
+	String d1 = c1 + "";
+	System.out.println(b1 + '\n' + d1);
+	}
+}
